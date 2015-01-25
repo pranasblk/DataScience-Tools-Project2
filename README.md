@@ -3,7 +3,7 @@ The project is related to  coursera.com assignment for:
 
  * Specialization: Data Science
  * Course: Developing Data Products 
- * Project1 / Part 2
+ * Project1 / Part 1
  
  The application is based on sample exporatory shiny examples and Regresssion Models project. Purpose is to explore `mtcars` data set.
  
