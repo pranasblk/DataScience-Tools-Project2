@@ -33,6 +33,9 @@ shinyUI(pageWithSidebar(
   ),
   
   mainPanel(
-    plotOutput('plot')
+    tabsetPanel(
+      tabPanel("Plot", plotOutput('plot')),
+      tabPanel("Documentation", includeHTML("README.html"))
+    )
   )
 ))

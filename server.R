@@ -23,6 +23,6 @@ shinyServer(function(input, output) {
     
     print(p)
     
-  }, height=700)
+  }, height=300)
   
 })
