@@ -67,7 +67,7 @@ img {
 <ul>
 <li>Specialization: Data Science</li>
 <li>Course: Developing Data Products</li>
-<li>Project1 / Part 2</li>
+<li>Project1 / Part 1</li>
 </ul>
 <p>The application is based on sample exporatory shiny examples and Regresssion Models project. Purpose is to explore <code>mtcars</code> data set.</p>
 </div>
@@ -81,7 +81,11 @@ img {
 </div>
 <div id="how-it-works" class="section level1">
 <h1>How it works</h1>
-<p>UI input contains:</p>
+<div id="the-source-of-the-project-in-github." class="section level2">
+<h2>The source of the project in <a href="https://github.com/pranasblk/DataScience-Tools-Project2">GitHub</a>.</h2>
+</div>
+<div id="ui-input-contains" class="section level2">
+<h2>UI input contains:</h2>
 <ul>
 <li>Sample size - the size of data element to analyse;</li>
 <li>X - x axis;</li>
@@ -91,7 +95,9 @@ img {
 <li>Facet Row - the faced to partition data and show graphs in rows;</li>
 <li>Facet Column - the faced to partinion data and show graphs in columns.</li>
 </ul>
-<p>Logic:</p>
+</div>
+<div id="logic" class="section level2">
+<h2>Logic:</h2>
 <ul>
 <li>The <code>ggplot2</code> functions used to display reactive parts of the output graph:</li>
 <li>Original data set is randomized taking into account <code>sampleSize</code> =&gt; <code>mtcars[sample(nrow(mtcars), input$sampleSize),]</code></li>
@@ -100,6 +106,7 @@ img {
 <li><code>stat_smooth(method = &quot;lm&quot;)</code> the linear model smoothing added if required;</li>
 <li><code>facets &lt;- paste(input$facet_row, '~', input$facet_col); facet_grid(facets)</code> facets added if required.</li>
 </ul>
+</div>
 </div>
 
 

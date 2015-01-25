@@ -13,7 +13,9 @@ The project is related to  coursera.com assignment for:
  * Run the application `library(shiny); runGitHub('DataScience-Tools-Project2', 'pranasblk')`
 
 # How it works
-UI input contains:
+
+## The source of the project in [GitHub](https://github.com/pranasblk/DataScience-Tools-Project2).
+## UI input contains:
 
  * Sample size - the size of data element to analyse;
  * X - x axis;
@@ -23,7 +25,7 @@ UI input contains:
  * Facet Row - the faced to partition data and show graphs in rows;
  * Facet Column - the faced to partinion data and show graphs in columns.
  
-Logic:
+## Logic:
 
   * The `ggplot2` functions used to display reactive parts of the output graph:
   * Original data set is randomized taking into account `sampleSize` => `mtcars[sample(nrow(mtcars), input$sampleSize),]`
